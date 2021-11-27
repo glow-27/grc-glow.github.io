@@ -60,7 +60,7 @@ html, body {
   width: 100%;
   padding: 0;
   margin: 0;
-  background: url(images/bricks_bg.jpg)
+  background: url(images/mutedmarble.jpg)
 	center center fixed no-repeat;
 	background-size: cover;
 	
@@ -71,66 +71,69 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgba(0, 150, 178, .75); /*this uses opacity of 75% for the background color*/
+ 	background: rgb(37, 37, 37); /*this uses opacity of 75% for the background color*/
 	text-align: center;
-	border: 4px dashed white;
 }
 
    
 #logo {
     margin-bottom: 16px;
-	border: 3px dashed red;
 	text-align: center;
+	height: 200px;
+	margin-top: 0.5em
 }
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
 	
-	font-family: casablanca-urw, sans-serif;
+	font-family: forma-djr-deck, sans-serif;
 
-	font-weight: 500;
+font-weight: 700;
 
-	font-style: normal;
+font-style: normal;
 	font-size: 2em;
     margin: 0px auto 10px auto;
-    color: #fff;
+    color: rgb(199, 142, 253);
 }
 
 h2 {
-	font-family: casablanca-urw, sans-serif;
-
-	font-weight: 300;
-
-	font-style: normal;
+	font-family: tomarik, sans-serif;
+font-weight: 400;
+font-style: normal;
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
 	font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
+	margin-top: 0.5em;
 }
 
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */	
-	font-family: rokkitt, serif;
+	font-family: tomarik, sans-serif;
+
 	font-weight: 400;
-	font-style: normal;	
-	font-size: 1.2em;
+	
+	font-style: normal;
+	font-size: 1.0em;
     line-height: 1.6;
     color: #fff;
 }
 
+
+
 nav{
-	font-family: rokkitt, serif;
-	font-weight: 400;
-	font-style: normal;	
-	font-size: 1.2em;
+	font-family: tomarik, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
 	width:400px;
 	margin: 0 auto;
-	border: dashed turquoise;
 	border-width: 3px 0;
 	text-align: center;
-	margin-top: 2em;
+	margin-top: 0.5em;
 }
 nav li{
 	display:inline
@@ -140,11 +143,12 @@ nav a{
 	padding: 10px;
 }
 a{
-	color: #444;
+	color: #F4C700;
 	text-decoration: none;
-	font-weight: bold;
+	font-weight: normal;
 }
 a:hover{
-	color:black;
-	background:pink;
+	color:black; 
+	font-weight: bold;
+	background: #F4C700;
 }
