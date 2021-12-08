@@ -71,7 +71,7 @@ html, body {
     width: 800px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgb(37, 37, 37); /*this uses opacity of 75% for the background color*/
+ 	background: rgb(37, 37, 37); /* opaque background rectangle*/
 	text-align: center;
 }
 
@@ -85,7 +85,7 @@ html, body {
 
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */
-	
+	/*my name*/
 	font-family: forma-djr-deck, sans-serif;
 
 font-weight: 700;
@@ -97,6 +97,7 @@ font-style: normal;
 }
 
 h2 {
+/*quote*/
 	font-family: tomarik, sans-serif;
 font-weight: 400;
 font-style: normal;
@@ -107,8 +108,17 @@ font-style: normal;
     padding: 0px 0px;
     margin: 0px auto 25px auto;
 	margin-top: 0.5em;
+	overflow: hidden;
+	display: inline-block;
+	white-space: nowrap;
+    width: 0;
+    animation: typing 4s steps(60, end) forwards;
+	
 }
-
+@keyframes typing {
+	from { width: 0 }
+	to { width: 100% }
+  }
 p {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM ADOBE FONTS OR GOOGLE FONTS */	
 	font-family: tomarik, sans-serif;
@@ -124,6 +134,7 @@ p {
 
 
 nav{
+/*links*/
 	font-family: tomarik, sans-serif;
 
 font-weight: 400;
